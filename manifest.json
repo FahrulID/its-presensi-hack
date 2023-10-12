@@ -1,0 +1,31 @@
+{
+    "name": "ITS Presensi Hack",
+    "version": "1.0.0",
+    "description": "Hack Presensi ITS NO ROOT NO VIRUS 100% WORK",
+    "manifest_version": 3,
+    "author": "Someone",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "ITS Presensi Hack"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://presensi.its.ac.id/tatap-muka/*"
+            ],
+            "js": [
+                "inject.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "hack.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
