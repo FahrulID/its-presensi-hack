@@ -1,8 +1,7 @@
 # ITS Presensi Attendance System Vulnerability
 
 Author: Fahrul Ramadhan Putra
-
-##
+## Current Status
 
 Status: Fixed
 
